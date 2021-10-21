@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HangeulNuri-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.긴줄{
+    font-family: 'GmarketSansBold';
+    font-size: 5vw;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.products_list_wrap {
+    font-family: 'HangeulNuri-Bold';
+    font-size: 1.5rem;
+    background-color: #FFF;
+    width: 100%;
+    height: 200vh;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+}
+.card_wrap {
+    font-family: 'Cafe24SsurroundAir';
+    margin-top: 10px;
+    box-shadow: -2px -2px 8px #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2vw;
+    flex-grow: 0;
+    height: 20vw;
+    width: 15vw;
+    max-width: 360px;
+    max-height: 480px;
+    
+}
+.card_title {
+    margin-top: 5vh;
+    font-size: 2vw;
+    color: #333;
+}
+.card_img {
+    max-height: 60%;
+}
+.card_img > img {
+    height: 100%;
+}
+.card_price {
+    font-size: 1.5vw;
+    margin-bottom: 5vh;
+}
+
+/* 업로드부분 */
+.pcontainer {
+    font-family: 'SpoqaHanSansNeo-Thin';
+    display: flex;
+    font-size: 1.2vw;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 100%;
+    background-color: #FFF;
+    color: #111;
+    padding-top: 3vh;
+
+}
+.col_input {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.input_text {
+    text-align: right;
+    flex-grow: 1;
+    width: 10vw;
+    margin-right: 10px;
+}
+.pcontainer input {
+    border: 0;
+    height: 5vh;
+    outline: none;
+    caret-color: #333;
+    font-size: 1.2vw;
+    box-shadow: 0 0 1px #333;
+    font-family: 'SpoqaHanSansNeo-Thin';
+    border: 0;
+    flex-grow: 6;
+    margin-right: 10px;
+}
+
+#pcategory {
+    text-align: right;
+    border: 0;
+    height: 5vh;
+    outline: none;
+    caret-color: #333;
+    font-size: 1.2vw;
+    box-shadow: 0 0 1px #333;
+    font-family: 'SpoqaHanSansNeo-Thin';
+    border: 0;
+    margin-right: 10px;
+    width: 75%;
+}
+#pdetail {
+    border: 0;
+    height: 5vh;
+    outline: none;
+    caret-color: #333;
+    font-size: 1vw;
+    box-shadow: 0 0 1px #333;
+    font-family: 'SpoqaHanSansNeo-Thin';
+    border: 0;
+    flex-grow: 6;
+    margin-right: 10px;
+}
+input[type="file"] { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0; 
+}
+.img_preview {
+    width: 320px;
+    max-height: 240px;
+}
+.fileadd_btn {
+    font-size: 1.2vw;
+    background-color: #ff4e4e;
+    border-radius: 5px;
+    height: 5vh;
+    line-height: 5vh;
+    width: 8vw;
+    color: #FFF;
+    display: block;
+    margin-right: 10px;
+}
+.submitBtn
+{
+    font-family: 'SpoqaHanSansNeo-Thin';
+    font-size: 1vw;
+    background-color: #ff4e4e;
+    border:0;
+    border-radius: 10px;
+    color: #FFF;
+    flex-grow: 1;
+    margin: 2vw;
+    height: 5vh;
+    font-size: 2vw;
+}
+
+.toastui-editor-defaultUI {
+    width: 85%;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}

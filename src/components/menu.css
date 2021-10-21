@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* nav */
+
+.menubar {
+    width: 100%;
+    color: #FFF;
+    height: 10vh;
+    min-height: 100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3vw;
+    gap: .5rem;
+    font-family: 'Eulyoo1945-SemiBold', 'Material Icons';
+    position: relative;
+    z-index: 9999;
+
+}
+
+.nav_logo {
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    gap:2em;
+    justify-content: space-between;
+
+}
+.nav_menus {
+    flex-grow: 5;
+    text-align: center;
+}
+.nav_icons {
+    flex-grow: 1;
+}
+
+/*드롭다운 */
+
+.dropdown_container{
+  width: 100%;
+  transition: .5s ease-out;
+
+  
+}
+
+.dropdown_list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  color: #3faffa;
+  font-size: .9rem;
+}
+.dropdown_item{
+    width: 100%;
+    z-index: 99999;
+}
+.dropdown_item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* nav logo */
+
+.logo_icon {
+    margin-left: 3rem;
+    flex-grow: 1;
+}
+.logo_icon .material-icons {
+    font-size: 3rem;
+    display: block;
+}
+.logo_name {
+    flex-grow: 1;
+}
+
+/* nav menu */
+
+.nav_menus ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+    width: 100%;
+
+}
+.nav_menus ul li {
+    
+    width: 20%;
+}
+.dropheader:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* nav icons */
+
+.nav_icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.nav_icons .material-icons {
+    font-size: 3vw;
+    display: block;
+}
+.material-icons:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.1);
+}
